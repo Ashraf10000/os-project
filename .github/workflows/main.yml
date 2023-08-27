@@ -18,3 +18,5 @@ jobs:
 
       - name: "pushing Docker image"
         run: docker push  ${{ secrets.DOCKER_USERNAME }}/project-img .
+      - name:"bla bla"
+        run : echo 'hay!' 
