@@ -14,7 +14,16 @@ jobs:
       # run: cd /home/runner/work/os-project/os-project/proj-01
 
       - name: "changing main.js permissions "
+        run: cd proj-01
+
+      - name: "changing main.js permissions "
         run: ls -a
+
+      - name: "changing main.js permissions "
+        run: chmod +rwx main.js
+
+      - name: "changing main.js permissions "
+        run: cd .. ..
 
       # - name: "Loging to Docker"
       #  run: docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_TOKEN }}
